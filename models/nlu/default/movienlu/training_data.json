@@ -1,0 +1,2680 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hey."
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Howdy."
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hey there."
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hello."
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi."
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Bye."
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Goodbye."
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Good bye."
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Stop."
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "End."
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "Johnny Depp",
+            "entity": "actor"
+          }
+        ],
+        "text": "What movies did Johnny Depp play in?"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 21,
+            "end": 35,
+            "value": "Angelina Jolie",
+            "entity": "actor"
+          }
+        ],
+        "text": "What are movies with Angelina Jolie?"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 20,
+            "end": 32,
+            "value": "Ian McKellen",
+            "entity": "actor"
+          }
+        ],
+        "text": "Tell me movies with Ian McKellen."
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Sean Bean",
+            "entity": "actor"
+          },
+          {
+            "start": 9,
+            "end": 15,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What are movies with Sean Bean?"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Tom Hanks",
+            "entity": "actor"
+          }
+        ],
+        "text": "Can you tell some of Tom Hanks movies?"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 16,
+            "end": 26,
+            "value": "Will Smith",
+            "entity": "actor"
+          }
+        ],
+        "text": "Any movies with Will Smith acting?"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "movie",
+            "entity": "query"
+          },
+          {
+            "start": 15,
+            "end": 29,
+            "value": "Robert De Niro",
+            "entity": "actor"
+          }
+        ],
+        "text": "Any movie with Robert De Niro acting?"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "movie",
+            "entity": "query"
+          },
+          {
+            "start": 29,
+            "end": 43,
+            "value": "Christian Bale",
+            "entity": "actor"
+          }
+        ],
+        "text": "Can you tell me a movie with Christian Bale acting?"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 12,
+            "end": 26,
+            "value": "Dustin Hoffman",
+            "entity": "actor"
+          }
+        ],
+        "text": "What movies Dustin Hoffman is acting in?"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 22,
+            "end": 36,
+            "value": "Morgan Freeman",
+            "entity": "actor"
+          }
+        ],
+        "text": "Show some movies with Morgan Freeman."
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 25,
+            "end": 40,
+            "value": "Natalie Portman",
+            "entity": "actor"
+          }
+        ],
+        "text": "Tell me some movies with Natalie Portman."
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 36,
+            "end": 51,
+            "value": "Anthony Hopkins",
+            "entity": "actor"
+          }
+        ],
+        "text": "I am interested in movies featuring Anthony Hopkins."
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 21,
+            "end": 38,
+            "value": "Jennifer Lawrence",
+            "entity": "actor"
+          }
+        ],
+        "text": "Any movies featuring Jennifer Lawrence?"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 43,
+            "end": 60,
+            "value": "Denzel Washington",
+            "entity": "actor"
+          }
+        ],
+        "text": "I wish you could recommend few movies with Denzel Washington."
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Show me some movies."
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What movies can you tell me?"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "movie",
+            "entity": "query"
+          }
+        ],
+        "text": "Tell me movie with him."
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What movies do you know?"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Could you tell me some more movies?"
+      },
+      {
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "I wonder if there is any movies with that actor."
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "Pulp Fiction",
+            "entity": "movie"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "movie",
+            "entity": "query"
+          },
+          {
+            "start": 27,
+            "end": 34,
+            "value": "details",
+            "entity": "info"
+          }
+        ],
+        "text": "Tell me movie Pulp Fiction details."
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "Fight Club",
+            "entity": "movie"
+          },
+          {
+            "start": 37,
+            "end": 42,
+            "value": "movie",
+            "entity": "query"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "know",
+            "entity": "info"
+          }
+        ],
+        "text": "I want to know more about Fight Club movie."
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 37,
+            "end": 49,
+            "value": "Forrest Gump",
+            "entity": "movie"
+          },
+          {
+            "start": 31,
+            "end": 36,
+            "value": "movie",
+            "entity": "query"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "information",
+            "entity": "info"
+          }
+        ],
+        "text": "Show me some information about movie Forrest Gump."
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 27,
+            "end": 72,
+            "value": "The Lord of the Rings: The Return of the King",
+            "entity": "movie"
+          }
+        ],
+        "text": "What can you tell me about The Lord of the Rings: The Return of the King?"
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "The Matrix",
+            "entity": "movie"
+          },
+          {
+            "start": 32,
+            "end": 37,
+            "value": "movie",
+            "entity": "query"
+          },
+          {
+            "start": 7,
+            "end": 14,
+            "value": "details",
+            "entity": "info"
+          }
+        ],
+        "text": "I want details about The Matrix movie."
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "Se7en",
+            "entity": "movie"
+          },
+          {
+            "start": 8,
+            "end": 19,
+            "value": "information",
+            "entity": "info"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "movie",
+            "entity": "query"
+          }
+        ],
+        "text": "Give me information of movie Se7en."
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 26,
+            "end": 39,
+            "value": "Spirited Away",
+            "entity": "movie"
+          },
+          {
+            "start": 40,
+            "end": 45,
+            "value": "movie",
+            "entity": "query"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "know",
+            "entity": "info"
+          }
+        ],
+        "text": "I want to know more about Spirited Away movie."
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 32,
+            "end": 44,
+            "value": "Interstellar",
+            "entity": "movie"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "movie",
+            "entity": "query"
+          }
+        ],
+        "text": "Please tell me more about movie Interstellar."
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 10,
+            "end": 34,
+            "value": "The Silence of the Lambs",
+            "entity": "movie"
+          },
+          {
+            "start": 35,
+            "end": 42,
+            "value": "details",
+            "entity": "info"
+          }
+        ],
+        "text": "How about The Silence of the Lambs details?"
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 40,
+            "end": 54,
+            "value": "The Green Mile",
+            "entity": "movie"
+          },
+          {
+            "start": 34,
+            "end": 39,
+            "value": "movie",
+            "entity": "query"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "information",
+            "entity": "info"
+          }
+        ],
+        "text": "Can you tell me information about movie The Green Mile?"
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "The Pianist",
+            "entity": "movie"
+          },
+          {
+            "start": 20,
+            "end": 27,
+            "value": "details",
+            "entity": "info"
+          }
+        ],
+        "text": "Show me The Pianist details, please."
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "Gladiator",
+            "entity": "movie"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "movie",
+            "entity": "query"
+          }
+        ],
+        "text": "Tell me about movie Gladiator."
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Memento",
+            "entity": "movie"
+          },
+          {
+            "start": 35,
+            "end": 40,
+            "value": "movie",
+            "entity": "query"
+          },
+          {
+            "start": 5,
+            "end": 12,
+            "value": "details",
+            "entity": "info"
+          }
+        ],
+        "text": "What details you can tell me about movie Memento."
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 22,
+            "end": 38,
+            "value": "Django Unchained",
+            "entity": "movie"
+          },
+          {
+            "start": 4,
+            "end": 15,
+            "value": "information",
+            "entity": "info"
+          }
+        ],
+        "text": "Any information about Django Unchained?"
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 25,
+            "end": 35,
+            "value": "Braveheart",
+            "entity": "movie"
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "details",
+            "entity": "info"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "value": "movie",
+            "entity": "query"
+          }
+        ],
+        "text": "Give me details of movie Braveheart."
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 28,
+            "end": 49,
+            "value": "The Dark Knight Rises",
+            "entity": "movie"
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "movie",
+            "entity": "query"
+          },
+          {
+            "start": 4,
+            "end": 11,
+            "value": "details",
+            "entity": "info"
+          }
+        ],
+        "text": "Any details about the movie The Dark Knight Rises?"
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "about",
+            "entity": "info"
+          },
+          {
+            "start": 32,
+            "end": 37,
+            "value": "movie",
+            "entity": "query"
+          }
+        ],
+        "text": "What can you tell me about this movie?"
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "movie",
+            "entity": "query"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Anything",
+            "entity": "info"
+          }
+        ],
+        "text": "Anything on this movie?"
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "movie",
+            "entity": "query"
+          },
+          {
+            "start": 4,
+            "end": 15,
+            "value": "information",
+            "entity": "info"
+          }
+        ],
+        "text": "Any information of this movie?"
+      },
+      {
+        "intent": "movie_info",
+        "entities": [
+          {
+            "start": 39,
+            "end": 48,
+            "value": "Toy Story",
+            "entity": "movie"
+          },
+          {
+            "start": 25,
+            "end": 32,
+            "value": "details",
+            "entity": "info"
+          }
+        ],
+        "text": "I would like to get some details about Toy Story."
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "action",
+            "entity": "genre"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "best",
+            "entity": "popularity"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Can you tell me best action movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "action",
+            "entity": "genre"
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": "good",
+            "entity": "popularity"
+          },
+          {
+            "start": 26,
+            "end": 32,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What are some good action movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "action",
+            "entity": "genre"
+          },
+          {
+            "start": 4,
+            "end": 11,
+            "value": "popular",
+            "entity": "popularity"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Any popular action movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "adventure",
+            "entity": "genre"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 36,
+            "end": 45,
+            "value": "recommend",
+            "entity": "popularity"
+          }
+        ],
+        "text": "Any adventure movies that you would recommend?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "adventure",
+            "entity": "genre"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "good",
+            "entity": "popularity"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What are good adventure movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "adventure",
+            "entity": "genre"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What adventure movies i should watch?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "animation",
+            "entity": "genre"
+          },
+          {
+            "start": 13,
+            "end": 20,
+            "value": "popular",
+            "entity": "popularity"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Tell me some popular animation movies."
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "animation",
+            "entity": "genre"
+          },
+          {
+            "start": 12,
+            "end": 16,
+            "value": "best",
+            "entity": "popularity"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Some of the best animation movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "animation",
+            "entity": "genre"
+          },
+          {
+            "start": 9,
+            "end": 20,
+            "value": "recommended",
+            "entity": "popularity"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What are recommended animation movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "comedy",
+            "entity": "genre"
+          },
+          {
+            "start": 11,
+            "end": 17,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Any comedy movies i should watch?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "comedies",
+            "entity": "genre"
+          },
+          {
+            "start": 9,
+            "end": 20,
+            "value": "recommended",
+            "entity": "popularity"
+          }
+        ],
+        "text": "What are recommended comedies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "comedy",
+            "entity": "genre"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "must",
+            "entity": "popularity"
+          },
+          {
+            "start": 12,
+            "end": 18,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What comedy movies are must watch?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "crime",
+            "entity": "genre"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "best",
+            "entity": "popularity"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What are best crime movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "crime",
+            "entity": "genre"
+          },
+          {
+            "start": 33,
+            "end": 37,
+            "value": "good",
+            "entity": "popularity"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Any crime movies that are really good?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "crime",
+            "entity": "genre"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "suggest",
+            "entity": "popularity"
+          }
+        ],
+        "text": "Could you suggest some crime movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 32,
+            "value": "documentaries",
+            "entity": "genre"
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": "good",
+            "entity": "popularity"
+          }
+        ],
+        "text": "What are some good documentaries?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "documentary",
+            "entity": "genre"
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "value": "best",
+            "entity": "popularity"
+          },
+          {
+            "start": 35,
+            "end": 41,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Could you tell me best documentary movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "documentary",
+            "entity": "genre"
+          },
+          {
+            "start": 34,
+            "end": 43,
+            "value": "recommend",
+            "entity": "popularity"
+          },
+          {
+            "start": 17,
+            "end": 23,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What documentary movies would you recommend?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "drama",
+            "entity": "genre"
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "value": "good",
+            "entity": "popularity"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Any good drama movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "dramas",
+            "entity": "genre"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "good",
+            "entity": "popularity"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Suggest",
+            "entity": "popularity"
+          }
+        ],
+        "text": "Suggest me some good dramas."
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "drama",
+            "entity": "genre"
+          },
+          {
+            "start": 33,
+            "end": 48,
+            "value": "recommendations",
+            "entity": "popularity"
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "movie",
+            "entity": "query"
+          }
+        ],
+        "text": "I want to watch drama movie. Any recommendations?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 38,
+            "value": "family",
+            "entity": "genre"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "movie",
+            "entity": "query"
+          }
+        ],
+        "text": "I want to watch some movie with family. What could we watch?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "family",
+            "entity": "genre"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "popular",
+            "entity": "popularity"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What are most popular family movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "family",
+            "entity": "genre"
+          },
+          {
+            "start": 33,
+            "end": 39,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 10,
+            "end": 17,
+            "value": "suggest",
+            "entity": "popularity"
+          }
+        ],
+        "text": "Could you suggest me some family movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "fantasy",
+            "entity": "genre"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "best",
+            "entity": "popularity"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What are best fantasy movies, i wonder."
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "fantasy",
+            "entity": "genre"
+          },
+          {
+            "start": 4,
+            "end": 19,
+            "value": "recommendations",
+            "entity": "popularity"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Any recommendations on fantasy movies, Billy?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "fantasy",
+            "entity": "genre"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "good",
+            "entity": "popularity"
+          },
+          {
+            "start": 43,
+            "end": 53,
+            "value": "suggestion",
+            "entity": "popularity"
+          },
+          {
+            "start": 37,
+            "end": 42,
+            "value": "movie",
+            "entity": "query"
+          }
+        ],
+        "text": "Could i get some really good fantasy movie suggestion?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "history",
+            "entity": "genre"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What you know about history movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "history",
+            "entity": "genre"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "best",
+            "entity": "popularity"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Can i get best history movies? I need some for school."
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "historic",
+            "entity": "genre"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "good",
+            "entity": "popularity"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Could you give list of good historic movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "horror",
+            "entity": "genre"
+          },
+          {
+            "start": 12,
+            "end": 18,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What horror movies are really scary?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "horror",
+            "entity": "genre"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "best",
+            "entity": "popularity"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Tell me best horror movies you know."
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "horror",
+            "entity": "genre"
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "suggest",
+            "entity": "popularity"
+          },
+          {
+            "start": 47,
+            "end": 51,
+            "value": "good",
+            "entity": "popularity"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Can you suggest me some horror movies that are good?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "musical",
+            "entity": "genre"
+          },
+          {
+            "start": 30,
+            "end": 39,
+            "value": "recommend",
+            "entity": "popularity"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What musical movies would you recommend?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "music",
+            "entity": "genre"
+          },
+          {
+            "start": 4,
+            "end": 15,
+            "value": "suggestions",
+            "entity": "popularity"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Any suggestions on music movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "music",
+            "entity": "genre"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "best",
+            "entity": "popularity"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Give me names of best music movies."
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "mystery",
+            "entity": "genre"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "best",
+            "entity": "popularity"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What mystery movies are the best?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "mystery",
+            "entity": "genre"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "truly",
+            "entity": "popularity"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What mystery movies are truly mysterious?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "mystery",
+            "entity": "genre"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Do you know mystery movies that i should watch?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "romance",
+            "entity": "genre"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "best",
+            "entity": "popularity"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Can you tell me best romance movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "romance",
+            "entity": "genre"
+          },
+          {
+            "start": 29,
+            "end": 38,
+            "value": "recommend",
+            "entity": "popularity"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "movie",
+            "entity": "query"
+          }
+        ],
+        "text": "What romance movie would you recommend for this evening?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "romance",
+            "entity": "genre"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Could you tell me some romance movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "science fiction",
+            "entity": "genre"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "best",
+            "entity": "popularity"
+          },
+          {
+            "start": 30,
+            "end": 36,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What are best science fiction movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 39,
+            "value": "science fiction",
+            "entity": "genre"
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "suggest",
+            "entity": "popularity"
+          },
+          {
+            "start": 40,
+            "end": 46,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Can you suggest me some science fiction movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 38,
+            "end": 53,
+            "value": "science fiction",
+            "entity": "genre"
+          },
+          {
+            "start": 30,
+            "end": 37,
+            "value": "popular",
+            "entity": "popularity"
+          },
+          {
+            "start": 54,
+            "end": 60,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Can you tell me what are most popular science fiction movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 38,
+            "end": 47,
+            "value": "tv movies",
+            "entity": "genre"
+          },
+          {
+            "start": 19,
+            "end": 34,
+            "value": "recommendations",
+            "entity": "popularity"
+          }
+        ],
+        "text": "What would be your recommendations on tv movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "tv movie",
+            "entity": "genre"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "enjoy",
+            "entity": "popularity"
+          }
+        ],
+        "text": "Any tv movie that i could enjoy?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 26,
+            "end": 34,
+            "value": "tv movie",
+            "entity": "genre"
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "good",
+            "entity": "popularity"
+          }
+        ],
+        "text": "Can you tell me some good tv movie?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "thriller",
+            "entity": "genre"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "best",
+            "entity": "popularity"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "What are best thriller movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "thrillers",
+            "entity": "genre"
+          },
+          {
+            "start": 25,
+            "end": 34,
+            "value": "recommend",
+            "entity": "popularity"
+          }
+        ],
+        "text": "What thrillers would you recommend?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "thriller",
+            "entity": "genre"
+          },
+          {
+            "start": 4,
+            "end": 15,
+            "value": "suggestions",
+            "entity": "popularity"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Any suggestions on thriller movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "war",
+            "entity": "genre"
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "suggest",
+            "entity": "popularity"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Can you suggest me some war movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "war",
+            "entity": "genre"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "war",
+            "entity": "genre"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "best",
+            "entity": "popularity"
+          },
+          {
+            "start": 18,
+            "end": 24,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 44,
+            "end": 49,
+            "value": "movie",
+            "entity": "query"
+          }
+        ],
+        "text": "What are best war movies? Haven't seems war movie in long time."
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 33,
+            "end": 36,
+            "value": "war",
+            "entity": "genre"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 21,
+            "end": 31,
+            "value": "must watch",
+            "entity": "popularity"
+          }
+        ],
+        "text": "Could you tell some 'must watch' war movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "western",
+            "entity": "genre"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "good",
+            "entity": "popularity"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "movies",
+            "entity": "query"
+          }
+        ],
+        "text": "Any really good western movies?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "westerns",
+            "entity": "genre"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "best",
+            "entity": "popularity"
+          }
+        ],
+        "text": "What are the best westerns?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "western",
+            "entity": "genre"
+          },
+          {
+            "start": 8,
+            "end": 15,
+            "value": "suggest",
+            "entity": "popularity"
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "movie",
+            "entity": "query"
+          }
+        ],
+        "text": "Can you suggest some western movie to me?"
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "information",
+            "entity": "info"
+          },
+          {
+            "start": 39,
+            "end": 48,
+            "value": "Tom Hardy",
+            "entity": "actor"
+          }
+        ],
+        "text": "Can you tell me some information about Tom Hardy?"
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "information",
+            "entity": "info"
+          },
+          {
+            "start": 26,
+            "end": 40,
+            "value": "Morgan Freeman",
+            "entity": "actor"
+          }
+        ],
+        "text": "Tell me information about Morgan Freeman."
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "about",
+            "entity": "info"
+          },
+          {
+            "start": 27,
+            "end": 36,
+            "value": "Sean Bean",
+            "entity": "actor"
+          }
+        ],
+        "text": "What can you tell me about Sean Bean?"
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "about",
+            "entity": "info"
+          },
+          {
+            "start": 23,
+            "end": 37,
+            "value": "George Clooney",
+            "entity": "actor"
+          }
+        ],
+        "text": "What do you know about George Clooney?"
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "know",
+            "entity": "info"
+          },
+          {
+            "start": 15,
+            "end": 24,
+            "value": "something",
+            "entity": "info"
+          },
+          {
+            "start": 31,
+            "end": 43,
+            "value": "Bruce Willis",
+            "entity": "actor"
+          }
+        ],
+        "text": "I want to know something about Bruce Willis."
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "information",
+            "entity": "info"
+          },
+          {
+            "start": 36,
+            "end": 47,
+            "value": "Johnny Depp",
+            "entity": "actor"
+          }
+        ],
+        "text": "What is the information you have on Johnny Depp?"
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "info",
+            "entity": "info"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "about",
+            "entity": "info"
+          },
+          {
+            "start": 19,
+            "end": 33,
+            "value": "Robin Williams",
+            "entity": "actor"
+          }
+        ],
+        "text": "Give me info about Robin Williams."
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "information",
+            "entity": "info"
+          },
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Heath Ledger",
+            "entity": "actor"
+          }
+        ],
+        "text": "Tell me information on Heath Ledger."
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "information",
+            "entity": "info"
+          },
+          {
+            "start": 29,
+            "end": 44,
+            "value": "Whoopi Goldberg",
+            "entity": "actor"
+          }
+        ],
+        "text": "What information you have on Whoopi Goldberg?"
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 17,
+            "value": "something",
+            "entity": "info"
+          },
+          {
+            "start": 18,
+            "end": 23,
+            "value": "about",
+            "entity": "info"
+          },
+          {
+            "start": 24,
+            "end": 38,
+            "value": "Sandra Bullock",
+            "entity": "actor"
+          }
+        ],
+        "text": "Tell me something about Sandra Bullock."
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "information",
+            "entity": "info"
+          },
+          {
+            "start": 25,
+            "end": 38,
+            "value": "Nicole Kidman",
+            "entity": "actor"
+          }
+        ],
+        "text": "Tell me information with Nicole Kidman."
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "know",
+            "entity": "info"
+          },
+          {
+            "start": 20,
+            "end": 28,
+            "value": "Lucy Liu",
+            "entity": "actor"
+          }
+        ],
+        "text": "What do you know on Lucy Liu?"
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "know",
+            "entity": "info"
+          },
+          {
+            "start": 26,
+            "end": 41,
+            "value": "Charles Chaplin",
+            "entity": "actor"
+          }
+        ],
+        "text": "I want to know more about Charles Chaplin."
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "information",
+            "entity": "info"
+          },
+          {
+            "start": 30,
+            "end": 43,
+            "value": "Marlon Brando",
+            "entity": "actor"
+          }
+        ],
+        "text": "I need some information about Marlon Brando."
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "information",
+            "entity": "info"
+          },
+          {
+            "start": 36,
+            "end": 48,
+            "value": "Ben Kingsley",
+            "entity": "actor"
+          }
+        ],
+        "text": "Can you give me some information on Ben Kingsley?"
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "know",
+            "entity": "info"
+          },
+          {
+            "start": 17,
+            "end": 22,
+            "value": "about",
+            "entity": "info"
+          },
+          {
+            "start": 23,
+            "end": 38,
+            "value": "Tommy Lee Jones",
+            "entity": "actor"
+          }
+        ],
+        "text": "What do you know about Tommy Lee Jones?"
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "about",
+            "entity": "info"
+          },
+          {
+            "start": 14,
+            "end": 29,
+            "value": "Joaquin Phoenix",
+            "entity": "actor"
+          }
+        ],
+        "text": "Tell me about Joaquin Phoenix."
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "information",
+            "entity": "info"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "about",
+            "entity": "info"
+          },
+          {
+            "start": 32,
+            "end": 45,
+            "value": "Russell Crowe",
+            "entity": "actor"
+          }
+        ],
+        "text": "I want to get information about Russell Crowe."
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "about",
+            "entity": "info"
+          },
+          {
+            "start": 27,
+            "end": 38,
+            "value": "Bill Murray",
+            "entity": "actor"
+          }
+        ],
+        "text": "What can you tell me about Bill Murray?"
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "about",
+            "entity": "info"
+          },
+          {
+            "start": 19,
+            "end": 36,
+            "value": "Donald Sutherland",
+            "entity": "actor"
+          }
+        ],
+        "text": "Tell me more about Donald Sutherland."
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "know",
+            "entity": "info"
+          },
+          {
+            "start": 17,
+            "end": 22,
+            "value": "about",
+            "entity": "info"
+          },
+          {
+            "start": 28,
+            "end": 33,
+            "value": "actor",
+            "entity": "query"
+          }
+        ],
+        "text": "What do you know about this actor?"
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "about",
+            "entity": "info"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "value": "him",
+            "entity": "query"
+          }
+        ],
+        "text": "Tell me about him."
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "know",
+            "entity": "info"
+          },
+          {
+            "start": 27,
+            "end": 30,
+            "value": "her",
+            "entity": "query"
+          }
+        ],
+        "text": "Do you know anything about her?"
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "actor",
+            "entity": "query"
+          }
+        ],
+        "text": "What is this actor famous for?"
+      },
+      {
+        "intent": "actor_info",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "about",
+            "entity": "info"
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "actor",
+            "entity": "actor"
+          }
+        ],
+        "text": "Can you tell more about this actor?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "genre",
+            "entity": "query"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "best",
+            "entity": "popularity"
+          }
+        ],
+        "text": "Tell me best movies from this genre."
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "best",
+            "entity": "popularity"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 31,
+            "end": 36,
+            "value": "genre",
+            "entity": "query"
+          }
+        ],
+        "text": "What are some best movies from genre?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "good",
+            "entity": "popularity"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "genre",
+            "entity": "query"
+          }
+        ],
+        "text": "What good movies in this genre you know?"
+      },
+      {
+        "intent": "popular_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "good",
+            "entity": "popularity"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "movies",
+            "entity": "query"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "genre",
+            "entity": "query"
+          }
+        ],
+        "text": "Any really good movies from this genre?"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

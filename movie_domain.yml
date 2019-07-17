@@ -1,0 +1,69 @@
+slots:
+  query:
+    type: text
+  actor:
+    type: text
+  movie:
+    type: text
+  info:
+    type: text
+  genre:
+    type: text
+  popularity:
+    type: text
+
+
+intents:
+    - greet
+    - goodbye
+    - actor_info
+    - movie_search
+    - movie_info
+    - popular_search
+
+
+entities:
+    - query
+    - actor
+    - movie
+    - info
+    - genre
+    - popularity
+
+
+templates:
+  utter_greet:
+    - 'Hello! How can i help?'
+    - 'Hi! How could i help you?'
+    - 'Greetings, what can i do for you?'
+  
+  utter_goodbye:
+    - 'See you later.'
+    - 'Bye.'
+    - 'Goodbye.'
+  
+  utter_ask_actor:
+    - 'Who exactly?'
+    - 'What is the name of an actor?'
+  
+  utter_ask_movie:
+    - 'What movie exactly?'
+    - 'How is the movie called?'
+    - 'What is the movie title?'
+
+  utter_ask_genre:
+    - 'What genre exactly?'
+    - 'How is the genre called?'
+    - 'What is the genre?'
+  
+
+actions:
+    - utter_greet
+    - utter_goodbye
+    - utter_ask_actor
+    - utter_ask_movie
+    - utter_ask_genre
+    - actions.ActionActorInfo
+    - actions.ActionMovie
+    - actions.ActionMovieInfo
+    - actions.ActionGenreRating

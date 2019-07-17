@@ -1,0 +1,33 @@
+{
+  "features": [
+    "intent_greet",
+    "intent_goodbye",
+    "intent_actor_info",
+    "intent_movie_search",
+    "intent_movie_info",
+    "intent_popular_search",
+    "entity_query",
+    "entity_actor",
+    "entity_movie",
+    "entity_info",
+    "entity_genre",
+    "entity_popularity",
+    "slot_actor_0",
+    "slot_genre_0",
+    "slot_info_0",
+    "slot_movie_0",
+    "slot_popularity_0",
+    "slot_query_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_ask_actor",
+    "prev_utter_ask_movie",
+    "prev_utter_ask_genre",
+    "prev_action_actorinfo",
+    "prev_action_movie",
+    "prev_action_movieinfo",
+    "prev_action_genrerating"
+  ]
+}

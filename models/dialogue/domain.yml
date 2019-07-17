@@ -1,0 +1,77 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_ask_actor
+- utter_ask_movie
+- utter_ask_genre
+- action_actorinfo
+- action_movie
+- action_movieinfo
+- action_genrerating
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_actor
+- utter_ask_movie
+- utter_ask_genre
+- actions.ActionActorInfo
+- actions.ActionMovie
+- actions.ActionMovieInfo
+- actions.ActionGenreRating
+config:
+  store_entities_as_slots: true
+entities:
+- query
+- actor
+- movie
+- info
+- genre
+- popularity
+intents:
+- greet
+- goodbye
+- actor_info
+- movie_search
+- movie_info
+- popular_search
+slots:
+  actor:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  genre:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  info:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  movie:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  popularity:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  query:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_actor:
+  - text: Who exactly?
+  - text: What is the name of an actor?
+  utter_ask_genre:
+  - text: What genre exactly?
+  - text: How is the genre called?
+  - text: What is the genre?
+  utter_ask_movie:
+  - text: What movie exactly?
+  - text: How is the movie called?
+  - text: What is the movie title?
+  utter_goodbye:
+  - text: See you later.
+  - text: Bye.
+  - text: Goodbye.
+  utter_greet:
+  - text: Hello! How can i help?
+  - text: Hi! How could i help you?
+  - text: Greetings, what can i do for you?
+topics: []

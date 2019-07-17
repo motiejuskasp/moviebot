@@ -1,0 +1,53 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "info",
+        "actor",
+        "genre",
+        "movie",
+        "query",
+        "popularity"
+      ]
+    },
+    "action_actorinfo": {
+      "slots": [
+        "actor"
+      ]
+    },
+    "action_movie": {
+      "slots": [
+        "actor"
+      ]
+    },
+    "null": {
+      "slots": [
+        "info",
+        "actor",
+        "genre",
+        "movie",
+        "query"
+      ]
+    },
+    "action_movieinfo": {
+      "slots": [
+        "movie"
+      ]
+    },
+    "action_genrerating": {
+      "slots": [
+        "genre"
+      ]
+    },
+    "utter_goodbye": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.8.6",
+  "max_history": 3,
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}
