@@ -1,2 +1,3 @@
 # RASAchatbot
-movie chatbot created using RASA stack
+Movie chatbot created using RASA stack.
+Uses Slack app to interact with user.
