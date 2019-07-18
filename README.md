@@ -1,4 +1,6 @@
 # RASAchatbot
-Movie chatbot created using RASA stack.
+Movie chatbot created using [RASA stack](https://rasa.com/).
 
-Uses Slack app to interact with user.
+Using [Slack](https://slack.com) app to interact with user.
+
+Getting data from [TheMovieDB](https://www.themoviedb.org/) using [wrapper](https://github.com/celiao/tmdbsimple) for easy requests.
