@@ -1,4 +1,4 @@
-# movie chatbot
+# Movie Chatbot
 Movie chatbot created using [RASA stack](https://rasa.com/).
 
 Using [Slack](https://slack.com) app to interact with user.
