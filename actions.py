@@ -7,7 +7,8 @@ from rasa_core.events import SlotSet
 
 import re
 import tmdbsimple as tmdb
-tmdb.API_KEY = '4e451d47079417d82742022a3cf54988'
+# use your key
+tmdb.API_KEY = 'key'
 
 
 class ActionActorInfo(Action):
